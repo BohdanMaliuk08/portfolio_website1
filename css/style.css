@@ -615,7 +615,7 @@ li {
 .cv-button {
   display: inline-flex;
   align-items: center;
-  gap: 10px;
+  gap: 0px;
   background: #1766ee;
   color: #000;
   text-decoration: none;
@@ -709,3 +709,4 @@ li {
   }
 
 }
+
