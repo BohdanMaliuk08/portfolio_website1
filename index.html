@@ -152,14 +152,17 @@
     </div>
  
     <!-- Right Side -->
-    <form class="contact-form">
-      <input type="text" placeholder="Name" required>
-      <input type="email" placeholder="Email" required>
-      <textarea rows="6" placeholder="Nachricht" required></textarea>
-      <button type="submit">
-        <i class="fa-solid fa-paper-plane"></i> Schicken
-      </button>
-    </form>
+    <form class="contact-form" action="https://formsubmit.co/bondan.maliuk@bws-limmattal.ch" method="POST">
+
+<input type="hidden" name="_captcha" value="false">
+<input type="text" name="name" placeholder="Name" required>
+<input type="email" name="email" placeholder="Email" required>
+<textarea name="message" rows="6" placeholder="Nachricht" required></textarea>
+<button type="submit">
+<i class="fa-solid fa-paper-plane"></i> Schicken
+</button>
+
+</form>
   </div>
 </section>
  
